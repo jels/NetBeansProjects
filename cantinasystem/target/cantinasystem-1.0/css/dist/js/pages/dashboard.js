@@ -8,7 +8,7 @@
 /* global moment:false, Chart:false, Sparkline:false */
 
 $(function () {
-  'use strict'
+  'use strict',
 
   // Make the dashboard widgets sortable Using jquery UI
   $('.connectedSortable').sortable({
@@ -17,8 +17,8 @@ $(function () {
     handle: '.card-header, .nav-tabs',
     forcePlaceholderSize: true,
     zIndex: 999999
-  })
-  $('.connectedSortable .card-header').css('cursor', 'move')
+  });
+  $('.connectedSortable .card-header').css('cursor', 'move');
 
   // jQuery UI sortable for the todo list
   $('.todo-list').sortable({
@@ -26,10 +26,10 @@ $(function () {
     handle: '.handle',
     forcePlaceholderSize: true,
     zIndex: 999999
-  })
+  });
 
   // bootstrap WYSIHTML5 - text editor
-  $('.textarea').summernote()
+  $('.textarea').summernote();
 
   $('.daterange').daterangepicker({
     ranges: {
@@ -44,11 +44,11 @@ $(function () {
     endDate: moment()
   }, function (start, end) {
     // eslint-disable-next-line no-alert
-    alert('You chose: ' + start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
-  })
+    alert('You chose: ' + start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+  });
 
   /* jQueryKnob */
-  $('.knob').knob()
+  $('.knob').knob();
 
   // jvectormap data
   var visitorsData = {
@@ -63,7 +63,7 @@ $(function () {
     IN: 800, // India
     GB: 320, // Great Britain
     RU: 3000 // Russia
-  }
+  };
   // World map by jvectormap
   $('#world-map').vectorMap({
     map: 'usa_en',
@@ -86,38 +86,38 @@ $(function () {
     },
     onRegionLabelShow: function (e, el, code) {
       if (typeof visitorsData[code] !== 'undefined') {
-        el.html(el.html() + ': ' + visitorsData[code] + ' new visitors')
+        el.html(el.html() + ': ' + visitorsData[code] + ' new visitors');
       }
     }
-  })
+  });
 
   // Sparkline charts
-  var sparkline1 = new Sparkline($('#sparkline-1')[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' })
-  var sparkline2 = new Sparkline($('#sparkline-2')[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' })
-  var sparkline3 = new Sparkline($('#sparkline-3')[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' })
+  var sparkline1 = new Sparkline($('#sparkline-1')[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' });
+  var sparkline2 = new Sparkline($('#sparkline-2')[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' });
+  var sparkline3 = new Sparkline($('#sparkline-3')[0], { width: 80, height: 50, lineColor: '#92c1dc', endColor: '#ebf4f9' });
 
-  sparkline1.draw([1000, 1200, 920, 927, 931, 1027, 819, 930, 1021])
-  sparkline2.draw([515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921])
-  sparkline3.draw([15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21])
+  sparkline1.draw([1000, 1200, 920, 927, 931, 1027, 819, 930, 1021]);
+  sparkline2.draw([515, 519, 520, 522, 652, 810, 370, 627, 319, 630, 921]);
+  sparkline3.draw([15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21]);
 
   // The Calender
   $('#calendar').datetimepicker({
     format: 'L',
     inline: true
-  })
+  });
 
   // SLIMSCROLL FOR CHAT WIDGET
   $('#chat-box').overlayScrollbars({
     height: '250px'
-  })
+  });
 
   /* Chart.js Charts */
   // Sales chart
-  var salesChartCanvas = document.getElementById('revenue-chart-canvas').getContext('2d')
+  var salesChartCanvas = document.getElementById('revenue-chart-canvas').getContext('2d');
   // $('#revenue-chart').get(0).getContext('2d');
 
   var salesChartData = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'],
     datasets: [
       {
         label: 'Digital Goods',
@@ -142,7 +142,7 @@ $(function () {
         data: [65, 59, 80, 81, 56, 55, 40]
       }
     ]
-  }
+  };
 
   var salesChartOptions = {
     maintainAspectRatio: false,
@@ -162,7 +162,7 @@ $(function () {
         }
       }]
     }
-  }
+  };
 
   // This will get the first returned node in the jQuery collection.
   // eslint-disable-next-line no-unused-vars
@@ -170,10 +170,10 @@ $(function () {
     type: 'line',
     data: salesChartData,
     options: salesChartOptions
-  })
+  });
 
   // Donut Chart
-  var pieChartCanvas = $('#sales-chart-canvas').get(0).getContext('2d')
+  var pieChartCanvas = $('#sales-chart-canvas').get(0).getContext('2d');
   var pieData = {
     labels: [
       'Instore Sales',
@@ -186,14 +186,14 @@ $(function () {
         backgroundColor: ['#f56954', '#00a65a', '#f39c12']
       }
     ]
-  }
+  };
   var pieOptions = {
     legend: {
       display: false
     },
     maintainAspectRatio: false,
     responsive: true
-  }
+  };
   // Create pie or douhnut chart
   // You can switch between pie and douhnut using the method below.
   // eslint-disable-next-line no-unused-vars
@@ -201,10 +201,10 @@ $(function () {
     type: 'doughnut',
     data: pieData,
     options: pieOptions
-  })
+  });
 
   // Sales graph chart
-  var salesGraphChartCanvas = $('#line-chart').get(0).getContext('2d')
+  var salesGraphChartCanvas = $('#line-chart').get(0).getContext('2d');
   // $('#revenue-chart').get(0).getContext('2d');
 
   var salesGraphChartData = {
@@ -224,7 +224,7 @@ $(function () {
         data: [2666, 2778, 4912, 3767, 6810, 5670, 4820, 15073, 10687, 8432]
       }
     ]
-  }
+  };
 
   var salesGraphChartOptions = {
     maintainAspectRatio: false,
@@ -255,7 +255,7 @@ $(function () {
         }
       }]
     }
-  }
+  };
 
   // This will get the first returned node in the jQuery collection.
   // eslint-disable-next-line no-unused-vars
@@ -263,5 +263,5 @@ $(function () {
     type: 'line',
     data: salesGraphChartData,
     options: salesGraphChartOptions
-  })
-})
+  });
+});
