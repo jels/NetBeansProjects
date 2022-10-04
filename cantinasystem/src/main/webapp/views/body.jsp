@@ -72,7 +72,7 @@
                         <div class="icon">
                             <i class="ion ion-person-add"></i>
                         </div>
-                        <a href="#" class="small-box-footer">Ver Más <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="clientes.jsp" class="small-box-footer">Ver Más <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
