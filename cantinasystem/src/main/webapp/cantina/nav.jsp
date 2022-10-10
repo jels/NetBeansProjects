@@ -88,7 +88,7 @@
                 <li class="nav-header">Panel Lateral</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="bi bi-house-door-fill nav-icon"></i>
+                        <i class="fas bi bi-house-door-fill nav-icon"></i>
                         <p>Inicio</p>
                     </a>
                 </li>
@@ -100,71 +100,6 @@
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="fas fa-cart-plus nav-icon"></i>
-                        <p>Pedidos</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-plus-square nav-icon"></i>
-                        <p>
-                            Crear
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="bi bi-cart-plus-fill nav-icon"></i>
-                                <p>Platos Principales</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="bi bi-flower1 nav-icon"></i>
-                                <p>Guarniciones</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="bi bi-person-plus-fill nav-icon"></i>
-                                <p>Usuarios</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="bi bi-diagram-3 nav-icon"></i>
-                                <p>Entidades</p>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-edit"></i>
-                        <p>
-                            Almuerzos
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="bi bi-cart-plus-fill nav-icon"></i>
-                                <p>Platos Principales</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="bi bi-flower1 nav-icon"></i>
-                                <p>Guarniciones</p>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
                         <i class="fas fa-credit-card nav-icon"></i>
                         <p>Pagos</p>
                     </a>
@@ -172,45 +107,88 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-chart-pie"></i>
-                        <p>
-                            Reportes
-                            <i class="right fas fa-angle-left"></i>
+                        <p>Reportes<i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="bi bi-cart4 nav-icon"></i>
+                                <i class="fas bi bi-cart4 nav-icon"></i>
                                 <p>Platos del Dia</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="bi bi-card-checklist nav-icon"></i>
+                                <i class="fas bi bi-card-checklist nav-icon"></i>
                                 <p>Usuarios</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="bi bi-cash-coin nav-icon"></i>
+                                <i class="fas bi bi-cash-coin nav-icon"></i>
                                 <p>Deudas</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="bi bi-currency-dollar nav-icon"></i>
+                                <i class="fas bi bi-currency-dollar nav-icon"></i>
                                 <p>Pagos Registrados</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="bi bi-cart-plus-fill nav-icon"></i>
+                                <i class="fas bi bi-cart-plus-fill nav-icon"></i>
                                 <p>Listar Platos</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                <i class="bi bi-flower1 nav-icon"></i>
+                                <i class="fas bi bi-flower1 nav-icon"></i>
+                                <p>Listar Guarniciones</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-chart-pie"></i>
+                        <p>Reportes<i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas bi bi-cart4 nav-icon"></i>
+                                <p>Platos del Dia</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas bi bi-card-checklist nav-icon"></i>
+                                <p>Usuarios</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas bi bi-cash-coin nav-icon"></i>
+                                <p>Deudas</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas bi bi-currency-dollar nav-icon"></i>
+                                <p>Pagos Registrados</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas bi bi-cart-plus-fill nav-icon"></i>
+                                <p>Listar Platos</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas bi bi-flower1 nav-icon"></i>
                                 <p>Listar Guarniciones</p>
                             </a>
                         </li>

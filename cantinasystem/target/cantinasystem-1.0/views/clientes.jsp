@@ -63,10 +63,11 @@
                                             <thead>
                                                 <tr>
                                                     <th>ID</th>
-                                                    <th>User</th>
-                                                    <th>Date</th>
-                                                    <th>Status</th>
-                                                    <th>Reason</th>
+                                                    <th>Usuario</th>
+                                                    <th>Entidad</th>
+                                                    <th>Ciclo/Nivel</th>
+                                                    <th>Deuda</th>
+                                                    <th>Estado</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
