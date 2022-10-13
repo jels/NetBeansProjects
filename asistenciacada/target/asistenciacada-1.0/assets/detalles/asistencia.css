@@ -1,0 +1,23 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11 oct. 2022, 10:13:06
+    Author     : PC-EDICION
+*/
+
+.presente{
+    color: green;
+}
+.ausente{
+    color: red;
+}
+.tarde{
+    color: #e3af00;
+}
+.espacioiconos{
+    padding-left: 25px;
+    font-size: 25px;
+}
+
