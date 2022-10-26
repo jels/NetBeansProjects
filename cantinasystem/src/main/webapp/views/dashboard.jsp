@@ -147,10 +147,7 @@
             <a id="back-to-top" href="newVenta.jsp" class="btn btn-primary back-to-top" role="button" aria-label="Scroll to top">
                 <i class="fas fa-plus-square"></i>
             </a>
-
+            <%@include file="footer.jsp" %>
         </div>
-
-
-        <%@include file="footer.jsp" %>
     </body>
 </html>

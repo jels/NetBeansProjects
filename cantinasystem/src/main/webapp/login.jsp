@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -61,7 +62,21 @@
                             <div class="col-4">
                                 <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
                             </div>
+
                             <!-- /.col -->
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="newVenta.jsp" class="btn btn-primary" role="button" >
+                                    <i class="fas fa-plus-square"></i>
+                                </a>
+                            </div>
+
+                            <div class="col-6">
+                                <a href="newVenta.jsp" class="btn btn-primary" role="button" >
+                                    <i class="fas fa-plus-square"></i>
+                                </a>
+                            </div>
                         </div>
                     </form>
 
