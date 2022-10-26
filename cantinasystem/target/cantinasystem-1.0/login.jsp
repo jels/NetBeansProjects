@@ -32,7 +32,7 @@
                 <div class="card-body login-card-body">
                     <p class="login-box-msg">Iniciar Sesión </p>
 
-                    <form action="views/dashboard.jsp" method="post">
+                    <form action="comedor/dashboard.jsp" method="post">
                         <div class="input-group mb-3">
                             <input type="email" class="form-control" placeholder="Usuario">
                             <div class="input-group-append">
@@ -67,13 +67,13 @@
                         </div>
                         <div class="row">
                             <div class="col-6">
-                                <a href="newVenta.jsp" class="btn btn-primary" role="button" >
+                                <a href="comedor/dashcomedor.jsp" class="btn btn-primary" role="button" >
                                     <i class="fas fa-plus-square"></i>
                                 </a>
                             </div>
 
                             <div class="col-6">
-                                <a href="newVenta.jsp" class="btn btn-primary" role="button" >
+                                <a href="cantina/dashcantina.jsp" class="btn btn-primary" role="button" >
                                     <i class="fas fa-plus-square"></i>
                                 </a>
                             </div>
