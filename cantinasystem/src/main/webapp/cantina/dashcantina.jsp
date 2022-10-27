@@ -37,7 +37,8 @@
 
 </head>
 
-    <body class="hold-transition sidebar-mini sidebar-collapse">
+    <body class="hold-transition sidebar-mini">
+    <!--<body class="hold-transition sidebar-mini sidebar-collapse">-->
         <div class="wrapper">
 
             <!-- Preloader -->
@@ -45,6 +46,8 @@
                 <img class="animation__shake" src="../css/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
             </div>
             <%@include file="nav.jsp" %>
+            
+            
 
 
         </div>

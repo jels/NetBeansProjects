@@ -13,7 +13,7 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="index3.html" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link">Inicio</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
             <a href="#" class="nav-link">Contáctenos</a>
@@ -87,21 +87,21 @@
 
                 <li class="nav-header">Panel Lateral</li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="dashcantina.jsp" class="nav-link">
                         <i class="fas bi bi-house-door-fill nav-icon"></i>
                         <p>Inicio</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="estudiantes.jsp" class="nav-link">
                         <i class="fas fa-users nav-icon"></i>
-                        <p>Clientes</p>
+                        <p>Estudiantes</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-credit-card nav-icon"></i>
-                        <p>Pagos</p>
+                    <a href="productos.jsp" class="nav-link">
+                        <i class="fas fa-clipboard-list nav-icon"></i>
+                        <p>Productos</p>
                     </a>
                 </li>
                 <li class="nav-item">
