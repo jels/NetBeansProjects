@@ -44,55 +44,49 @@
         <div class="preloader flex-column justify-content-center align-items-center">
             <img class="animation__shake" src="../css/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
         </div>
+        <div style="margin-left: 25%; margin-right: 25%;">
 
-        <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-header">
-                        <h3 class="card-title">Application Buttons</h3>
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-2">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Acceso a aplicaciones</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
 
-                                <a class="btn btn-app bg-secondary">
-                                    <span class="badge bg-success">300</span>
-                                    <i class="fas fa-barcode"></i> Products
-                                </a>
-                                
-                            </div>
-                            <div class="col-2">
-                            </div>
-                            <div class="col-2">
+                                    <a href="../cantina/dashcantina.jsp" class="btn btn-app bg-secondary">
+                                        <span class="badge bg-success">10%</span>
+                                        <i class="fas fa-barcode"></i> Cantina
+                                    </a>
 
-                                <a class="btn btn-app bg-secondary">
-                                    <span class="badge bg-success">300</span>
-                                    <i class="fas fa-barcode"></i> Products
-                                </a>
-                               
-                            </div>
-                            <div class="col-2"></div>
-                            <div class="col-2">
+                                </div>
+                                <div class="col-md-4">
 
-                                <a class="btn btn-app bg-secondary">
-                                    <span class="badge bg-success">300</span>
-                                    <i class="fas fa-barcode"></i> Products
-                                </a>
-                               
+                                    <a href="../comedor/dashcomedor.jsp" class="btn btn-app bg-secondary">
+                                        <span class="badge bg-success">20%</span>
+                                        <i class="fas fa-barcode"></i> Comedor
+                                    </a>
+
+                                </div>
+                                <div class="col-md-4">
+
+                                    <a href="#" class="btn btn-app bg-secondary">
+                                        <span class="badge bg-success">300</span>
+                                        <i class="fas fa-barcode"></i> Products
+                                    </a>
+
+                                </div>
                             </div>
                         </div>
+                        <!-- /.card-body -->
                     </div>
-                    <!-- /.card-body -->
+                    <!-- /.card -->
                 </div>
-                <!-- /.card -->
             </div>
         </div>
 
-
-        <footer class="main-footer">
-            <strong>Copyright &copy; 2022.</strong>
-            All rights reserved.
-        </footer>
         <!-- jQuery -->
         <script src="../css/plugins/jquery/jquery.min.js"></script>
         <!-- jQuery UI 1.11.4 -->
