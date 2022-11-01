@@ -66,15 +66,20 @@
                             <!-- /.col -->
                         </div>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-4">
                                 <a href="comedor/dashcomedor.jsp" class="btn btn-primary" role="button" >
-                                    <i class="fas fa-plus-square"></i>
+                                    <i class="fas fa-briefcase"></i>
                                 </a>
                             </div>
 
-                            <div class="col-6">
+                            <div class="col-4">
                                 <a href="cantina/dashcantina.jsp" class="btn btn-primary" role="button" >
-                                    <i class="fas fa-plus-square"></i>
+                                    <i class="fas fa-desktop"></i>
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a href="adminView/admin.jsp" class="btn btn-primary" role="button" >
+                                    <i class="fas fa-cog"></i>
                                 </a>
                             </div>
                         </div>
