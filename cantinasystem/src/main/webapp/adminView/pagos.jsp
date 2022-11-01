@@ -186,8 +186,9 @@
         </div>
         <!-- ./wrapper -->
 
+        
+        
         <!-- REQUIRED SCRIPTS -->
-
         <!-- jQuery -->
         <script src="../assets/plugins/jquery/jquery.min.js"></script>
         <!-- Bootstrap 4 -->
